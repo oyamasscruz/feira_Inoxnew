@@ -15,7 +15,7 @@ export default function ProfileCard() {
         />
         <div>
           <h2 className="mt-20">Bem vindo a Inoxnew!</h2>
-          <ul className="flex flex-col gap-4 mt-10 items-center">
+          <ul className="flex flex-col gap-2 mt-10 items-center">
             <li>
               <a
                 href="https://wa.me/+5562985824684?text=Olá! Tudo bem? Nos vimos na feira Minas Láctea e resolvi entrar em contato por aqui. Gostaria de saber mais sobre os serviços/produtos de vocês!"
@@ -36,7 +36,7 @@ export default function ProfileCard() {
                 href="https://www.inoxnew.com.br"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col items-center gap-2"
+                className="flex flex-col items-center gap-2 p-3 rounded-xl hover:bg-white transition"
               >
                 <span>Nosso Site</span>
                 <img
@@ -51,7 +51,7 @@ export default function ProfileCard() {
                 href="https://www.linkedin.com/company/inoxnew/?viewAsMember=true"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col items-center gap-2"
+                className="flex flex-col items-center gap-2 p-3 rounded-xl hover:bg-white transition"
               >
                 <span>LinkedIn</span>
                 <img
@@ -66,7 +66,7 @@ export default function ProfileCard() {
                 href="https://www.instagram.com/inoxnew/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col items-center gap-2"
+                className="flex flex-col items-center gap-2 p-3 rounded-xl hover:bg-white transition"
               >
                 <span>Instagram</span>
                 <img
@@ -81,7 +81,7 @@ export default function ProfileCard() {
                 href="https://www.facebook.com/inoxnewbrasil"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col items-center gap-2"
+                className="flex flex-col items-center gap-2 p-3 rounded-xl hover:bg-white transition"
               >
                 <span>Facebook</span>
                 <img
@@ -96,7 +96,7 @@ export default function ProfileCard() {
                 href="https://www.google.com/maps?ll=-16.809598,-49.208351&z=16&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=13902005619582446133"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex flex-col items-center gap-2"
+                className="flex flex-col items-center gap-2 p-3 rounded-xl hover:bg-white transition"
               >
                 <span>Localização</span>
                 <img
