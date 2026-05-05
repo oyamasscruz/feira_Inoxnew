@@ -8,7 +8,7 @@ export default function ProfileCard() {
             "url('https://inoxnew.com.br/wp-content/uploads/2024/07/pastr-tubular-1.png')",
         }}
       ></div>
-      <div className="relative z-10 flex flex-col w-100 items-center">
+      <div className="relative z-10 flex flex-col w-50 items-center">
         <img
           src="https://inoxnew.com.br/wp-content/uploads/2024/07/logo2.svg"
           alt="logo_inoxnew"
