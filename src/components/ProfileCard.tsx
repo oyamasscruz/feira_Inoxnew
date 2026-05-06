@@ -11,10 +11,10 @@ export default function ProfileCard() {
         }}
       ></div>
       <div className="relative z-10 flex flex-col w-50 items-center">
-        <Logo className="w-50 h-50 text-logoInoxnew" />
-        <div className="font-bold text-logoInoxnew">
-          <h2 className="mt-5 text-4xl">Bem vindo a Inoxnew!</h2>
-          <ul className="flex flex-col gap-2 mt-10 items-center">
+        <Logo className="w-35 h-35 text-logoInoxnew" />
+        <div className="text-center font-bold text-logoInoxnew">
+          <h2 className="mt-5 text-xl">Bem vindo a Inoxnew!</h2>
+          <ul className="flex flex-col gap-1 mt-2 items-center">
             <li>
               <a
                 href="https://wa.me/+5562985824684?text=Olá! Tudo bem? Nos vimos na feira Minas Láctea e resolvi entrar em contato por aqui. Gostaria de saber mais sobre os serviços/produtos de vocês!"
