@@ -2,7 +2,7 @@ import Logo from "../assets/logo2.svg?react";
 
 export default function ProfileCard() {
   return (
-    <div className="relative min-h-screen bg-blue-950 flex flex-col items-center justify-center">
+    <div className="relative min-h-screen bg-blue-950 flex flex-col items-center justify-start pt-5">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
