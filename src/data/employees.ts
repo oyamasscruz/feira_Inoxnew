@@ -20,6 +20,11 @@ export const employees = [
     whatsapp: "+5551981597567",
   },
   {
+    slug: "jardel",
+    name: "Jardel Viana",
+    whatsapp: "+5531991319727",
+  },
+  {
     slug: "jefferson",
     name: "Jefferson Dantas",
     whatsapp: "+5511972836781",
