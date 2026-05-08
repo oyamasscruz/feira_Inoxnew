@@ -1,6 +1,11 @@
 import Logo from "../assets/logo2.svg?react";
 
-export default function ProfileCard() {
+type ProfileCardProps = {
+  name: string;
+  whatsapp: string;
+};
+
+export default function ProfileCard({ name, whatsapp }: ProfileCardProps) {
   return (
     <div className="relative min-h-screen bg-blue-950 flex flex-col items-center justify-start pt-5">
       <div
@@ -13,11 +18,11 @@ export default function ProfileCard() {
       <div className="relative z-10 flex flex-col w-50 items-center">
         <Logo className="w-35 h-35 text-logoInoxnew" />
         <div className="text-center font-bold text-logoInoxnew">
-          <h2 className="mt-5 text-xl">Bem vindo a Inoxnew!</h2>
+          <h2 className="mt-5 text-xl">Bem vindo a Inoxnew</h2>
           <ul className="flex flex-col gap-1 mt-2 items-center">
             <li>
               <a
-                href="https://wa.me/+5562985824684?text=Olá! Tudo bem? Nos vimos na feira Minas Láctea e resolvi entrar em contato por aqui. Gostaria de saber mais sobre os serviços/produtos de vocês!"
+                href={`https://wa.me/${whatsapp}?text=Olá ${name}! Tudo bem? Nos vimos na feira Minas Láctea e resolvi entrar em contato por aqui. Gostaria de saber mais sobre os serviços/produtos de vocês!`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center gap-2 p-3 rounded-xl hover:bg-white hover:text-logoInoxnew transition"
