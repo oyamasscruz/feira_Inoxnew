@@ -40,8 +40,8 @@ export const employees = [
     whatsapp: "+5562981245996",
   },
   {
-    slug: "vulvain",
-    name: "Vulvain Liaigre",
+    slug: "vulcain",
+    name: "Vulcain Liaigre",
     whatsapp: "+330682591749",
   },
 ];
