@@ -1,4 +1,4 @@
-import Logo from "../assets/logo2.svg?react";
+import LogoGroup from "../assets/LogoInoxNew.svg?react";
 
 type ProfileCardProps = {
   name: string;
@@ -16,9 +16,9 @@ export default function ProfileCard({ name, whatsapp }: ProfileCardProps) {
         }}
       ></div>
       <div className="relative z-10 flex flex-col w-50 items-center">
-        <Logo className="w-35 h-35 text-logoInoxnew" />
+        <LogoGroup className="w-75 h-45 text-logoInoxnew" />
         <div className="text-center font-bold text-logoInoxnew">
-          <h2 className="mt-5 text-xl">Bem vindo a Inoxnew</h2>
+          <h2 className="text-xl">Bem vindo a Inoxnew Group</h2>
           <ul className="flex flex-col gap-1 mt-2 items-center">
             <li>
               <a
